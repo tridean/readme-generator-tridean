@@ -5,7 +5,7 @@
   ## Deployed Application URL
   https://github.com/tridean/readme-generator-tridean
   ## Screenshot
-  ![screenshot](./assets/screenshot.png)
+  ![screenshot](./assets/screenshot.PNG)
   ## Table of Contents
   * [Using this Application](#UsingthisApplication)
   * [Contributors](#contributors)
