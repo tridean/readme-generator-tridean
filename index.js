@@ -30,7 +30,7 @@ const questions = [
         type: "checkbox",
         name: "license",
         message: "Please select a license applicable to this project.",
-        choices: ["MPL2.0", "BSD2", "BSD3", "MIT", "APACHE2.0", "Boost1.0", "none"],
+        choices: ["MPL2.0", "BSD2", "BSD3", "MIT", "Apache2.0", "Boost1.0", "none"],
     },
     {
         type: "input",
