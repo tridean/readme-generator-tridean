@@ -29,25 +29,22 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license !== "none") {
-    return `## License
-    This project is covered under ${license}.`;
-  }
-  else if (license == "none") {
+  if (license == "none") {
     return "";
   }
+  else return `## License\nThis project is covered under ${license}.`;
+
 }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
-  ${renderLicenseLink(data.license)}
   ## Description
   ${data.description}
   ## Deployed Application URL
   ${data.link}
   ## Screenshot
-  ![alt-text](${data.screenshot})
+  ![screenshot](${data.screenshot})
   ## Table of Contents
   * [Using this Application](#UsingthisApplication)
   * [Contributors](#contributors)
@@ -60,10 +57,9 @@ function generateMarkdown(data) {
   ## Testing
   ${data.test}
   ## Questions
-  Send all questions to [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or check out my GitHub at [github/${data.creator}](https://github.com/${data.creator}).
+  Send all questions to ${data.email} or check out my [GitHub](https://github.com/${data.author}).
   ${renderLicenseSection(data.license)}
 `;
-
 }
 
 module.exports = generateMarkdown;
