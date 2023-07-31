@@ -14,7 +14,7 @@
   ## Using this Application:
   Javascript, Node.js, Markdown
   ## Contributors
-  n/a
+  dopecello for insight into direction of code.
   ## Testing
   Run through the prompts in node.js.
   ## Questions
