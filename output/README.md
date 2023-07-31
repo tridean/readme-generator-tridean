@@ -5,16 +5,16 @@
   ## Deployed Application URL
   https://github.com/tridean/readme-generator-tridean
   ## Screenshot
-  ![screenshot](./assets/screenshot.png)
+  ![screenshot](./assets/screenshot.PNG)
   ## Table of Contents
   * [Using this Application](#UsingthisApplication)
   * [Contributors](#contributors)
   * [Testing](#testing)
   * [Questions](#questions)
   ## Using this Application:
-  Javascript, Node.js, Markdown
+  Javascript, Markdown, Node.js
   ## Contributors
-  n/a
+  dopecello for some insight into direction of code.
   ## Testing
   Run through the prompts in node.js.
   ## Questions

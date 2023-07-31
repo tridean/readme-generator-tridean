@@ -29,7 +29,7 @@ const questions = [
     {
         type: "checkbox",
         name: "license",
-        message: "Please select a license applicable to this project.",
+        message: "Select the license you intend to use for this project.",
         choices: ["MPL2.0", "BSD2", "BSD3", "MIT", "Apache2.0", "Boost1.0", "none"],
     },
     {
@@ -52,7 +52,6 @@ const questions = [
         type: "input",
         name: "contributors",
         message: "Using GitHub usernames, list any contributors to the project.",
-        default: "",
     },
     {
         type: "input",
