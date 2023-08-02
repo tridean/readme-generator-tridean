@@ -11,7 +11,7 @@
   * [Contributors](#contributors)
   * [Testing](#testing)
   * [Questions](#questions)
-  ## Using this Application:
+  ## Technologies Used:
   Javascript, Node.js, Markdown
   ## Contributors
   dopecello for insight into direction of code.
