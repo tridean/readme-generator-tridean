@@ -50,8 +50,8 @@ function generateMarkdown(data) {
   * [Contributors](#contributors)
   * [Testing](#testing)
   * [Questions](#questions)
-  ## Using this Application:
-  ${data.usage}
+  ## Technologies Used:
+  ${data.technologies}
   ## Contributors
   ${data.contributors}
   ## Testing

@@ -34,7 +34,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "usage",
+        name: "technologies",
         message:
         "List the technologies, languages, etc associated with the project.",
     },
